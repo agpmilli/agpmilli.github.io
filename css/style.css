@@ -112,17 +112,25 @@ header img {
 
 header .intro-text .name {
     display: block;
+	text-align: left;
     text-transform: uppercase;
-    font-family: 'Lulo Clean';
+    font-family: 'Bebas Neue';
     font-size: 65px;
     font-weight: 700;
 }
 
 header .intro-text .skills {
-	font-family: 'Basic';
+	font-family: 'Bebas Neue';
     font-size: 24px;
     font-weight: 300;
 }
+
+header .intro-text .description {
+	font-family: 'Bebas Neue';
+    font-size: 20px;
+    font-weight: 300;
+}
+
 header .intro-text .menu-icon {
     margin:auto;
 	width:100px;
@@ -151,8 +159,9 @@ header .intro-text .menu-icon:hover i {
 
     header .intro-text .name {
 		display: block;
+		text-align: left;
 		text-transform: uppercase;
-		font-family: 'Lulo Clean';
+		font-family: 'Bebas Neue';
 		font-size: 65px;
 		font-weight: 700;
     }
@@ -160,6 +169,13 @@ header .intro-text .menu-icon:hover i {
     header .intro-text .skills {
         font-size: 24px;
     }
+	
+	header .intro-text .description {
+		font-family: 'Bebas Neue';
+		font-size: 20px;
+		font-weight: 300;
+	}
+	
 	header .intro-text .menu-icon {
         font-size: 2.5em;
     }
