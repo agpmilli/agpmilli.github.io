@@ -641,29 +641,22 @@ border-top: 22px solid #3fbfE1;
 	
 }
 .tm_content-left{
-	width: 50%;
 	min-height: 200px;
-	border-right: thick solid #00D646;
-	float: left;
-	box-sizing: border-box;
-	text-align: left;
+	text-align: right;
 	overflow: hidden;
 	margin-right:40px;
 	position: relative;
-	width: 5px;
 	float:left;
-	/* background-color: #000; */
-	border-left: thick solid #00D646;
-	margin-left:10px;
+	border-right: thick solid #00D646;
 }
 
 .tm_content-right{
 	text-align: left;
 	overflow: hidden;
 	margin-left:40px;
-	width: 50%;
 	min-height: 200px;
 	float: right;
+	border-left: thick solid #00D646;
 }
 
 .tm_member-left{
