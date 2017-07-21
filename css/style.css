@@ -23,7 +23,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #E4545B;
+    color: #00D646;
 }
 
 h1,
@@ -1285,7 +1285,7 @@ border-radius: 50% !important;
 .navbar-nav a:hover,
 .navbar-nav a:focus,
 .navbar-nav li.active a {
-color: #E4545B !important;
+color: #00D646 !important;
 background-color: #fff !important;
 display: block !important;
 content: "" !important;
