@@ -93,6 +93,10 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.number {
+	color: #BEC7D5;
+}
+
 header {
     text-align: center;
     color: #fff;
@@ -1021,7 +1025,7 @@ padding-left:50px;
 #education{
     color: #fff;
 	background-image:url(../img/TemplateImg/education.jpeg);
-	background-image:repeat;
+	background-size:100%;
 }
 
 #services{
