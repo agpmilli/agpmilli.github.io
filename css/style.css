@@ -233,7 +233,7 @@ header .intro-text .menu-icon:hover i {
 }
 
 section {
-	height: 100%;
+	min-height: 100%;
     padding: 100px 0;
 	background-color: #f2f2f2;
 }
@@ -1049,13 +1049,19 @@ padding-left:50px;
 #skills{
     color: #fff;
 	background-image:url(../img/TemplateImg/skills.png);
-	background-image:repeat;
+	background-image:cover;
 }
 
 #education{
     color: #fff;
 	background-image:url(../img/TemplateImg/education.jpeg);
-	background-size:100%;
+	background-size:cover;
+}
+
+#experience{
+    color: #fff;
+	background-image:url(../img/TemplateImg/experience.jpg);
+	background-size:cover;
 }
 
 #services{
