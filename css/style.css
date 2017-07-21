@@ -640,7 +640,13 @@ border-top: 22px solid #3fbfE1;
 	width:80px;
 	
 }
-.tm_content{
+.tm_content-left{
+	text-align: left;
+	overflow: hidden;
+	margin-right:40px;
+}
+
+.tm_content-right{
 	text-align: left;
 	overflow: hidden;
 	margin-left:40px;
