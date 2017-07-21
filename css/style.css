@@ -647,6 +647,7 @@ border-top: 22px solid #3fbfE1;
 	margin-right:-17px;
 	position: relative;
 	border-right: thick solid #00D646;
+	z-index: -1;
 }
 
 .tm_content-right{
@@ -655,6 +656,7 @@ border-top: 22px solid #3fbfE1;
 	margin-left:-18px;
 	min-height: 200px;
 	border-left: thick solid #00D646;
+	z-index: -1;
 }
 
 .tm_content_text-left{
