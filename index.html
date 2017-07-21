@@ -1,515 +1,1093 @@
 <!DOCTYPE html>
-<!-- ==============================
-    Project:        Metronic "Aircv" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
-    Version:        1.0
-    Author:         KeenThemes
-    Primary use:    Corporate, Business Themes.
-    Email:          support@keenthemes.com
-    Follow:         http://www.twitter.com/keenthemes
-    Like:           http://www.facebook.com/keenthemes
-    Website:        http://www.keenthemes.com
-    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-================================== -->
-<html lang="en" class="no-js">
-    <!-- BEGIN HEAD -->
-    <head>
-        <meta charset="utf-8"/>
-        <title>Metronic "Aircv" Frontend Freebie</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="" name="description"/>
-        <meta content="" name="author"/>
+<html lang="en">
 
-        <!-- GLOBAL MANDATORY STYLES -->
-        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
-        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<head>
 
-        <!-- PAGE LEVEL PLUGIN STYLES -->
-        <link href="css/animate.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <!-- THEME STYLES -->
-        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+    <title>Resume Inn - A Free ThemifyCloud Template</title>
+	<script type="text/javascript">
+        function preloader(){
+            document.getElementById("loading").style.display = "none";
+            document.getElementById("content").style.display = "block";
+        }//preloader
+        window.onload = preloader;
+	</script>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico"/>
-    </head>
-    <!-- END HEAD -->
+	<!---Animate.css-->
+	<link href="css/animate.css" rel="stylesheet" type="text/css">
+	<!--flexslider.css-->
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css">		
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<!--	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'> -->
+<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>	
+	<!--flex slider fonts-->
+    
+    <!-- IE8 support for HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<!--on loading of page///////-->
+</head>
 
-    <!-- BODY -->
-    <body id="body" data-spy="scroll" data-target=".header">
+<body id="page-top" class="index" data-spy="scroll" data-target=".navbar-fixed-top">
+<div id="loading"></div>
+<div id="content">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top" id="top-logo-img"><img src="img/TemplateImg/top-logo3.png" alt="Top Logo Image" ></a>
+            </div>
 
-        <!--========== HEADER ==========-->
-        <header class="header navbar-fixed-top">
-            <!-- Navbar -->
-            <nav class="navbar" role="navigation">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="menu-container js_nav-item">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="toggle-icon"></span>
-                        </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="page-scroll">
+                        <a href="#page-top">Home</a>
+                    </li>
+					<li class="page-scroll">
+                        <a href="#profile">Profile</a>
+                    </li>
+					<li class="page-scroll">
+                        <a href="#resume">Resume</a>
+                    </li>
+					<li class="page-scroll">
+                        <a href="#skills">Skills</a>
+                    </li>
+					<li class="page-scroll">
+                        <a href="#services">Services</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-                        <!-- Logo -->
-                        <div class="logo">
-                            <a class="logo-wrap" href="#body">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Asentus Logo">
-                            </a>
-                        </div>
-                        <!-- End Logo -->
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse nav-collapse">
-                        <div class="menu-container">
-                            <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Navbar Collapse -->
+    <header class="home">
+		<div class="home_wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="intro-text">
+						    <span><img src="img/TemplateImg/last.png" alt="Logo Image" id="logo-img"></span>
+				<!--			<span class="name">	Free Resume Inn <em class="colored">Premium</em> Template</span>		-->	
+							    <div id="myCarousel" class="carousel slide vertical">
+									<!-- Carousel items -->
+									<div class="carousel-inner">
+										<div class="active item">
+											<span class="name">	Resume Inn <em class="colored">Premium</em> Template</span>
+										</div>
+										<div class="item">
+											<span class="name">	Resume Inn <em class="colored">Creative</em> Template</span>
+										</div>
+										<div class="item">
+										<span class="name">	Resume Inn <em class="colored">Virtual Card</em> Template</span>
+										</div>
+									</div>
+							
+								</div>
+								<!--end of carousel items-->				
+							<span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+							<p class="page-scroll menu-icon">
+								<a href="#profile">							
+									<i class="fa fa-chevron-down fa-lg pull-left "></i>								
+								</a>
+							</p>
+								
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </header>
+	
+	<!--Start of section of Profile-->
+	<section class="success" id="profile">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>My Profile</h2>
+                    
+					
+					<!--lines of heading here -->
+					<div class="inline-icons-text">
+					<div class="inline-icon">
+					<span class="glyphicon glyphicon-th th-lg"></span>
+					</div>
+					<div class="head-lines" id="head-cover">
+					<hr/>
+					</div>
+					<div class="inline-icon" >
+					<span class="glyphicon glyphicon-th th-lg"></span>
+					</div>
+					</div>
+					<!--end of lines of heading here -->
                 </div>
-            </nav>
-            <!-- Navbar -->
-        </header>
-        <!--========== END HEADER ==========-->
+            </div>
+			<div class="gap-30"></div>
+            <div class="row">
+				
+				<div class="col-md-3 text-center" id="prof-img">
+				<img class="img-responsive alin" src="img/TemplateImg/photo1.png" alt="">
+				</div>
+                <div class="col-md-4">				
+				<div class="prof">
+	                <!--name-->			
+					<div class="inline-icons-text">
+					<div class="inline-icon">
+					<span class="prof-icon"><i class="fa fa-user" ></i></span>
+					</div>
+					<div> <p class="set-prof"><em class="prof-head">Name</em>: John B.Smith</p></div>
+					</div><hr>
+					<!--Date of Birth-->
+					<div class="inline-icons-text">
+					<div class="inline-icon">
+					<span class="prof-icon"><i class="fa fa-gift" ></i></span>
+					</div>
+					<div> <p class="set-prof"><em class="prof-head">Date of Birth</em>: 21 March 1989</p></div>
+					</div><hr>
+					<!--Nationality-->
+					<div class="inline-icons-text">
+					<div class="inline-icon">
+					<span class="prof-icon"><i class="fa fa-location-arrow" ></i></span>
+					</div>
+					<div> <p class="set-prof"><em class="prof-head">Nationality</em>: French</p></div>
+					</div><hr>	
+					<!--Address-->					
+					<div class="inline-icons-text">
+					<div class="inline-icon">
+					<span class="prof-icon"><i class="fa fa-home" ></i></span>
+					</div>
+					<div> <p class="set-prof"><em class="prof-head">Address</em>: 23-A Street Nagra paris</p></div>
+					</div><hr>
+					<!--Phone-->					
+					<div class="inline-icons-text">
+					<div class="inline-icon">
+					<span class="prof-icon" id="fone"><i class="fa fa-tablet"></i></span>
+					</div>
+					<div> <p class="set-prof"><em class="prof-head">Phone</em>: +923215405230 </p></div>
+					</div><hr>
+					<!--Email-->					
+					<div class="inline-icons-text">
+					<div class="inline-icon">
+					<span class="prof-icon"><i class="fa fa-envelope" ></i></span>
+					</div>
+					<div> <p class="set-prof"><em class="prof-head">Email</em>: themifycloud@gmail.com</p></div>
+					</div>
+				</div>				
+				</div>
+                <div class="col-md-5">
+				<div id="testimonials-2" class="slide testimonial testimonial-version1">
+						<!-- Testimonial items -->
+                        <h3 class="heading">
+							<span class="darkblue">Personal</span>
+							<span class="white">Profile</span>
+						</h3>
+                    <p class="white" id="prof-content">Resume Inn is a free bootstrap theme created by ThemifyCloud. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization. Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect each business!</p>
 
-        <!--========== SLIDER ==========-->
-        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
+						<!--/Testimonial-inner-->
+				
+				</div>
+					
+            </div>
+        </div>
+		</div>
+	</section>
+	
+	<!--End of section of Profile-->
+	<!---Start of Download Resume-->
+	<div class="resume-download" id="resume-download">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+				<div class="btn down-resume " >Download Resume</div>
+				<div class="down-icon"><i class="fa fa-cloud-download" ></i></div>
+				<div class="down-cv-text">234.12KB | CV.PDF</div>
+				</div>
+			</div>
+	   </div>	
+   </div>   
+	<!---End of Download Resume-->	
+	<!--Start of section Resume-->
+<section class="team" id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Resume</h2>
+                   <!--lines of heading here -->
+					<div class="inline-icons-text">
+					<div class="inline-icon">
+					<span class="glyphicon glyphicon-th th-lg"></span>
+					</div>
+					<div class="head-lines" id="resume-cover">
+					<hr id="teamhr"/>
+					</div>
+					<div class="inline-icon" >
+					<span class="glyphicon glyphicon-th th-lg"></span>
+					</div>
+					</div>
+					<!--end of lines of heading here -->
+					
+                </div>
+				<div class="row">
+					
+					<div class="col-md-6 tm_member">
+					<div class="verticalLine">					
+					</div>
+					<div>  
+                    	<span class="edu"><i class="fa fa-book" ></i></span>						
+				    </div>
+						<div class="tm_content">
+							<h4 class="">
+								<span class="white">John Doe</span>
+							</h4>
+							<div class="">
+							<div class="datetime">DEC 2005 – NOV 2013</div>
+							<div class="org">BS(CS) - MIT</div>
+							</div>
+							<p class="white" id="edu1">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis. Sed non leo nisl, ac euismod nisi. Aenean augue luctus lorem.
+							</p>
+						</div>
+					</div>
+					
+					<div class="col-md-6 tm_member">
+					<div class="verticalLine">
+					</div>
+					<div>  
+                    	<span class="edu"><i class="fa fa-briefcase" ></i></span>						
+				    </div>
+					<div class="tm_content">
+					<h4 class="">
+						<span class="white">John Doe</span>
+		     		</h4>
+					<div>
+					 <div class="datetime">DEC 2005 – NOV 2013</div>
+					 <div class="org">BS(CS) - MIT</div>
+					</div>
+							<p class="white" id="exp1">
+								Lorem3 ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis. Sed non leo nisl, ac euismod nisi. Aenean augue luctus lorem.
+							</p>
+					</div>
+					</div>
+					<div class="col-md-6 tm_member">
+					<div class="verticalLine">
+					</div>
+					<div>  
+                    	<span class="edu"><i class="fa fa-book" ></i></span>						
+				    </div>
+					<div class="tm_content">
+					<h4 class="">
+						<span class="white">John Doe</span>
+		     		</h4>
+					<div>
+					 <div class="datetime">DEC 2005 – NOV 2013</div>
+					 <div class="org">BS(CS) - MIT</div>
+					</div>
+							<p class="white" id="edu2">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis. Sed non leo nisl, ac euismod nisi. Aenean augue luctus lorem.
+							</p>
+					</div>
+					</div>
+					<div class="col-md-6 tm_member">
+					<div class="verticalLine">
+					</div>
+					<div>  
+                    	<span class="edu"><i class="fa fa-briefcase" ></i></span>						
+				    </div>
+					<div class="tm_content">
+					<h4 class="">
+						<span class="white">John Doe</span>
+		     		</h4>
+					<div>
+						 <div class="datetime">DEC 2005 – NOV 2013</div>
+						 <div class="org">BS(CS) - MIT</div>
+					</div>
+						<p class="white" id="exp2">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis. Sed non leo nisl, ac euismod nisi. Aenean augue luctus lorem.
+						</p>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+		<!--End of Section Education-->	
+	
+	<!--starting of Skills section-->
+	<section class="team" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Skills</h2>
+                   <!--lines of heading here -->
+					<div class="inline-icons-text">
+					<div class="inline-icon">
+					<span class="glyphicon glyphicon-th th-lg"></span>
+					</div>
+					<div class="head-lines" id="skill-cover">
+					<hr id="skillhr"/>
+					</div>
+					<div class="inline-icon" >
+					<span class="glyphicon glyphicon-th th-lg"></span>
+					</div>
+					</div>
+					<!--end of lines of heading here -->
+					
+                </div>
+				<div class="row skills-small-page">
+					
+					<div class="col-md-4 tm_member">
+							
+						<h4 class="skill-head">
+							Graphic Skills
+						</h4>
+						<div class="skill">
+						
+							<label>Photoshop</label>
+							  <div class="proficiency-bar">
+							   <div class="bar">
+								<div class="fill"  data-value="90" style="width: 0%;">
+								 <div class="value">90%</div>
+								</div>
+							   </div>
+							  </div>
+						
+							<label>Illustrator</label>
+							  <div class="proficiency-bar" id="illustrator">
+							   <div class="bar">
+								<div class="fill"  data-value="80" style="width: 0%;">
+								 <div class="value">80%</div>
+								</div>
+							   </div>
+							  </div>
+							
+							<label>Fireworks</label>
+							  <div class="proficiency-bar" id="firworks">
+							   <div class="bar">
+								<div class="fill"  data-value="85" style="width: 0%;">
+								 <div class="value">85%</div>
+								</div>
+							   </div>
+							  </div>  
+							</div>  
+					</div>
+					<div class="col-md-4 tm_member">
+						<h4 class="skill-head">
+							Language Skills
+						</h4>
+							<div class="skill">
+						
+							<label>English</label>
+							  <div class="proficiency-bar">
+							   <div class="bar">
+								<div class="fill"  data-value="90" style="width: 0%;">
+								 <div class="value">90%</div>
+								</div>
+							   </div>
+							  </div>
+						
+							<label>German</label>
+							  <div class="proficiency-bar" id="german">
+							   <div class="bar">
+								<div class="fill"  data-value="95" style="width: 0%;">
+								 <div class="value">95%</div>
+								</div>
+							   </div>
+							  </div>
+							
+							<label>French</label>
+							  <div class="proficiency-bar">
+							   <div class="bar">
+								<div class="fill"  data-value="90" style="width: 0%;">
+								 <div class="value">90%</div>
+								</div>
+							   </div>
+							  </div>  
+							</div>
+					</div>
+				<div class="col-md-4 tm_member">
+						<h4 class="skill-head">
+							PERSONAL QUALITIES
+						</h4>
+						<ul class="skill-list">
+						<li>Effective problem solver</li>
+						<li>Tactful and patient communicator</li>
+						<li>Good team player</li>
+						<li>Loyal to the company</li>
+						<li>Success motivated</li>
+						</ul>										
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!--Ending of Skills Section-->	
+
+	<!---Start of Testimonials-->
+	<section class="testimonials" id="testimon">
+		<div class="container">
+		  <div class="row">
+			<div class='col-md-offset-2 col-md-8 text-center'>
+			<h2>Client's Remarks</h2>
+			</div>
+		  </div>
+		  <div class='row'>
+			<div class='col-md-offset-2 col-md-8'>
+			  <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+				<!-- Bottom Carousel Indicators -->
+				<ol class="carousel-indicators">
+				  <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+				  <li data-target="#quote-carousel" data-slide-to="1"></li>
+				  <li data-target="#quote-carousel" data-slide-to="2"></li>
+				</ol>
+				
+				<!-- Carousel Slides / Quotes -->
+				<div class="carousel-inner">
+				
+				  <!-- Quote 1 -->
+				  <div class="item active">
+					<blockquote>
+					  <div class="row">
+						<div class="col-sm-3 text-center">
+						  <img class="img-circle" src="http://wp-desk.com/lovinflat/images/persons/person_1.png" style="width: 100px;height:100px;" alt="">
+						</div>
+						<div class="col-sm-9">
+						  <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+						  <small>Someone famous</small>
+						</div>
+					  </div>
+					</blockquote>
+				  </div>
+							<!-- Quote 2 -->
+				  <div class="item">
+					<blockquote>
+					  <div class="row">
+						<div class="col-sm-3 text-center">
+						  <img class="img-circle" src="http://wp-desk.com/lovinflat/images/persons/person_2.png" style="width: 100px;height:100px;" alt="">
+						</div>
+						<div class="col-sm-9">
+						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
+						  <small>Someone famous</small>
+						</div>
+					  </div>
+					</blockquote>
+				  </div>
+				  <!-- Quote 3 -->
+				  <div class="item">
+					<blockquote>
+					  <div class="row">
+						<div class="col-sm-3 text-center">
+						  <img class="img-circle" src="http://wp-desk.com/lovinflat/images/persons/person_3.png" style="width: 100px;height:100px;" alt="">
+						</div>
+						<div class="col-sm-9">
+						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan.</p>
+						  <small>Someone famous</small>
+						</div>
+					  </div>
+					</blockquote>
+				  </div>
+				</div>
+				<!-- Carousel Buttons Next/Prev -->
+				<a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+				<a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+			  </div>                          
+			</div>
+		  </div>
+		</div>	
+
+   </section>   
+	<!---End of Testimonials-->	
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Services</h2>
+                    <!--lines of heading here -->
+					<div class="inline-icons-text">
+					<div class="inline-icon">
+					<span class="glyphicon glyphicon-th th-lg"></span>
+					</div>
+					<div class="head-lines" id="service-cover">
+					<hr id="servicehr"/>
+					</div>
+					<div class="inline-icon" >
+					<span class="glyphicon glyphicon-th th-lg"></span>
+					</div>
+					</div>
+					<!--end of lines of heading here -->
+					
+                </div>
+				<div class="row">
+					<div class="col-md-6 left-services">
+						<div class="service-item">
+							<span class="fa-stack fa-3x right">
+							    <i class="fa fa-circle fa-2x fa-stack-2x"></i>
+							    <i class="fa fa-tablet fa-stack-1x fa-inverse service-icon"></i>
+							</span>
+							<h4 class="white">
+								100% RESPONSIVE DESIGN
+							</h4>
+							<p class="white" id="serv4">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis.
+							</p>
+						</div>
+						<div class="service-item">
+							<span class="fa-stack fa-3x right">
+							    <i class="fa fa-circle fa-2x fa-stack-2x"></i>
+							    <i class="fa fa-wordpress fa-stack-1x fa-inverse service-icon"></i>
+							</span>
+							<h4 class="white">
+								Wordpress
+							</h4>
+							<p class="white" id="serv5">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis.
+							</p>
+						</div>
+						<div class="service-item">
+							<span class="fa-stack fa-3x right">
+							    <i class="fa fa-circle fa-2x fa-stack-2x"></i>
+							    <i class="fa fa-signal fa-stack-1x fa-inverse service-icon"></i>
+							</span>
+							<h4 class="white">
+								SEO Service
+							</h4>
+							<p class="white" id="serv6">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-6 right-services">
+						<div class="service-item">
+							<span class="fa-stack fa-3x right">
+							    <i class="fa fa-circle fa-2x fa-stack-2x"></i>
+							    <i class="fa fa-html5 fa-stack-1x fa-inverse service-icon"></i>
+							</span>
+							<h4 class="white">
+								HTML5 & CSS3
+							</h4>
+							<p class="white" id="serv1">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis.
+							</p>
+						</div>
+						<div class="service-item">
+							<span class="fa-stack fa-3x right">
+							    <i class="fa fa-circle fa-2x fa-stack-2x"></i>
+							    <i class="fa fa-rocket fa-stack-1x fa-inverse service-icon"></i>
+							</span>
+							<h4 class="white">
+								CLEAN CODING
+							</h4>
+							<p class="white" id="serv2">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis.
+							</p>
+						</div>
+						<div class="service-item">
+							<span class="fa-stack fa-3x right">
+							    <i class="fa fa-circle fa-2x fa-stack-2x"></i>
+							    <i class="fa fa-gamepad fa-stack-1x fa-inverse service-icon"></i>
+							</span>
+							<h4 class="white">
+								Game Design
+							</h4>
+							<p class="white" id="serv3">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--start of portfolio section-->
+	<section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                   <!--lines of heading here -->
+					<div class="inline-icons-text">
+					<div class="inline-icon">
+					<span class="glyphicon glyphicon-th th-lg"></span>
+					</div>
+					<div class="head-lines" id="port-cover">
+					<hr id="porthr"/>
+					</div>
+					<div class="inline-icon" >
+					<span class="glyphicon glyphicon-th th-lg"></span>
+					</div>
+					</div>
+					<!--end of lines of heading here -->
+                </div>
+            </div>
+			<div class="gap-30"></div>
+			<div id="filters" class="filter_group text-center">  
+					<button class="btn btn-primary filter active" data-filter="*">show all</button>
+					<button class="btn btn-primary filter" data-filter=".design">Design</button>
+					<button class="btn btn-primary filter" data-filter=".development">Development</button>
+					<button class="btn btn-primary filter" data-filter=".testing">Testing</button>
+				</div>
+				<div class="isotope portfolio-container">
+					<div class="element-item portfolio-item design">
+						<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img src="img/portfolio/design1.jpg" class="img-responsive" alt="" />
+						</a>
+					</div>
+					<div class="element-item portfolio-item development">
+						<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img src="img/portfolio/dev1.jpg" class="img-responsive" alt="" />
+						</a>
+					</div>
+					<div class="element-item portfolio-item design">
+						<a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img src="img/portfolio/design3.jpg" class="img-responsive" alt="" />
+						</a>
+					</div>
+					<div class="element-item portfolio-item testing">
+						<a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img src="img/portfolio/testing1.jpg" class="img-responsive" alt="" />
+						</a>
+					</div>
+					<div class="element-item portfolio-item development">
+						<a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img src="img/portfolio/dev2.jpg" class="img-responsive" alt="" />
+						</a>
+					</div>
+					<div class="element-item portfolio-item testing">
+						<a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img src="img/portfolio/testing2.jpg" class="img-responsive" alt="" />
+						</a>
+					</div>
+					<div class="element-item portfolio-item design">
+						<a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img src="img/portfolio/design4.jpg" class="img-responsive" alt="" />
+						</a>
+					</div>
+					<div class="element-item portfolio-item testing">
+						<a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img src="img/portfolio/testing3.jpg" class="img-responsive" alt="" />
+						</a>
+					</div>
+					<div class="element-item portfolio-item development">
+						<a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img src="img/portfolio/dev3.jpg" class="img-responsive" alt="" />
+						</a>
+					</div>
+				  
+				</div>
+        </div>
+    </section>
+
+ <!---Start of Process Section-->
+	<section class="pro-sec" id="pro-section">
+		<div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">				
+				<h2>Process</h2>
+				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
+	            </div>
+			</div>
+		    <div class="row text-center">
+                <div class="col-lg-2 col-sm-4 col-xs-6 text-center">				
+				<div class="process-circle"><div class="fa fa-lightbulb-o"><div class="circle-font">IDEA</div></div></div>
+	            </div>
+				<div class="col-lg-2 col-sm-4 col-xs-6 text-center">				
+				<div class="process-circle1"><div class="fa fa-cogs"><div class="circle-font">CONCEPT</div></div></div>
+	            </div>
+				<div class="col-lg-2 col-sm-4 col-xs-6 text-center">				
+				<div class="process-circle1"><div class="fa fa-tint"><div class="circle-font">DESIGN</div></div></div>
+	            </div>
+				<div class="col-lg-2 col-sm-4 col-xs-6 text-center">				
+				<div class="process-circle1"><div class="fa fa-code"><div class="circle-font">CODE</div></div></div>
+	            </div>
+				<div class="col-lg-2 col-sm-4 col-xs-6 text-center">				
+				<div class="process-circle1"><div class="fa fa-bug"><div class="circle-font">TEST</div></div></div>
+	            </div>
+				<div class="col-lg-2 col-sm-4 col-xs-6 text-center">				
+				<div class="process-circle1"><div class="fa fa-rocket"><div class="circle-font">LAUNCH</div></div></div>
+	            </div>					
+			</div>	
+		</div>
+   </section>   
+<!---End of Process Section-->	
+	
+	
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact</h2>
+                     <!--lines of heading here -->
+					<div class="inline-icons-text">
+					<div class="inline-icon">
+					<span class="glyphicon glyphicon-th th-lg"></span>
+					</div>
+					<div class="head-lines" id="contact-cover">
+					<hr id="contacthr"/>
+					</div>
+					<div class="inline-icon" >
+					<span class="glyphicon glyphicon-th th-lg"></span>
+					</div>
+					</div>
+					<!--end of lines of heading here -->
+                </div>
+            </div>
+			<div class="gap-50"></div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <form role="form">
+                        <div class="row">
+							<div class="input-group col-xs-12">
+							  <div class="input-group-addon"><i class="fa fa-user contact-icon"></i></div>
+							  <input type="text" class="form-control" placeholder="Name">
+							</div>
+                        </div>
+                        <div class="row contact-fields">
+							<div class="input-group col-xs-12">
+							  <div class="input-group-addon"><i class="fa fa-envelope contact-icon"></i></div>
+							  <input type="email" name="email" class="form-control" placeholder="Email Address">
+							</div>
+                        </div>
+                        <div class="row contact-fields">
+							<div class="input-group col-xs-12">
+							  <div class="input-group-addon"><i class="fa fa-pencil contact-icon"></i></div>
+							  <textarea class="form-control" placeholder="Message" rows="5"></textarea>
+							</div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-lg btn-success btn-block">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+	</section>
+	<div id="googleMap" style="width:100%;height:350px;"></div>
+    
+    <footer class="text-center">
+        <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
-                        <div class="promo-block-divider">
-                            <h1 class="promo-block-title">Alex <br/> Teseira</h1>
-                            <p class="promo-block-text">Web Designer &amp; Front-end Developer</p>
-                        </div>
+                    <div class="footer-col col-md-4">
+                        <h4>Location</h4>
+                        <p>728 F Block Gulshan Ravi
+                            <br>Lahore Pakistan</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h4>Around the Web</h4>
                         <ul class="list-inline">
-                            <li><a href="#" class="social-icons"><i class="icon-social-facebook"></i></a></li>
-                            <li><a href="#" class="social-icons"><i class="icon-social-twitter"></i></a></li>
-                            <li><a href="#" class="social-icons"><i class="icon-social-dribbble"></i></a></li>
-                            <li><a href="#" class="social-icons"><i class="icon-social-behance"></i></a></li>
-                            <li><a href="#" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                            <li><a href="https://www.facebook.com/themifycloud" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://plus.google.com/104790504722969782308" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li><a href="https://twitter.com/themifycloud" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li><a href="http://www.linkedin.com/in/themifycloud" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
                         </ul>
                     </div>
+                    <div class="footer-col col-md-4">
+                        <h4>About Resume Inn</h4>
+                        <p>Resume Inn is a free to use, open source Bootstrap based template created by <a href="http://themifycloud.com" id="foot-link">Themify Cloud</a>.</p>
+                    </div>
                 </div>
-                <!--// end row -->
             </div>
         </div>
-        <!--========== SLIDER ==========-->
-
-        <!--========== PAGE LAYOUT ==========-->
-        <!-- About -->
-        <div id="about">
-            <div class="container content-lg">
+        <div class="footer-below">
+            <div class="container">
                 <div class="row">
-                    <div class="col-sm-3 sm-margin-b-30">
-                        <div class="text-right sm-text-left">
-                            <h2 class="margin-b-0">Intro</h2>
-                            <p>What I am all about.</p>
-                        </div>
+                    <div class="col-lg-12">
+                        Copyright &copy; 2014 - ThemifyCloud
                     </div>
-                    <div class="col-sm-8 col-sm-offset-1">
-                        <div class="margin-b-60">
-                            <p>I'm Alex Teseira, orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </div>
-
-                        <!-- Progress Box -->
-                        <div class="progress-box">
-                            <h5>PHP <span class="color-heading pull-right">87%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="87"></div>
-                            </div>
-                        </div>
-                        <div class="progress-box">
-                            <h5>HTML5 <span class="color-heading pull-right">96%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="96"></div>
-                            </div>
-                        </div>
-                        <div class="progress-box">
-                            <h5>JavaSript <span class="color-heading pull-right">52%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="52"></div>
-                            </div>
-                        </div>
-                        <div class="progress-box">
-                            <h5>Photoshop <span class="color-heading pull-right">77%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="77"></div>
-                            </div>
-                        </div>
-                        <!-- End Progress Box -->
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
-        </div>
-        <!-- End About -->
-
-        <!-- Experience -->
-        <div id="experience">
-            <div class="bg-color-sky-light" data-auto-height="true">
-                <div class="container content-lg">
-                    <div class="row">
-                        <div class="col-sm-3 sm-margin-b-30">
-                            <div class="text-right sm-text-left">
-                                <h2 class="margin-b-0">Experience</h2>
-                                <p>Batman would be jealous.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-8 col-sm-offset-1">
-                            <div class="row row-space-2 margin-b-4">
-                                <div class="col-md-4 md-margin-b-4">
-                                    <div class="service" data-height="height">
-                                        <div class="service-element">
-                                            <i class="service-icon icon-chemistry"></i>
-                                        </div>
-                                        <div class="service-info">
-                                            <h3>HTML5/CSS3</h3>
-                                            <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                        </div>
-                                        <a href="#" class="content-wrapper-link"></a>    
-                                    </div>
-                                </div>
-                                <div class="col-md-4 md-margin-b-4">
-                                    <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
-                                        <div class="service-element">
-                                            <i class="service-icon color-white icon-screen-tablet"></i>
-                                        </div>
-                                        <div class="service-info">
-                                            <h3 class="color-white">Photoshop</h3>
-                                            <p class="color-white margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                        </div>
-                                        <a href="#" class="content-wrapper-link"></a>    
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="service" data-height="height">
-                                        <div class="service-element">
-                                            <i class="service-icon icon-badge"></i>
-                                        </div>
-                                        <div class="service-info">
-                                            <h3>Front-end</h3>
-                                            <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                        </div>
-                                        <a href="#" class="content-wrapper-link"></a>    
-                                    </div>
-                                </div>
-                            </div>
-                            <!--// end row -->
-                        </div>
-                    </div>
-                    <!--// end row -->
                 </div>
             </div>
         </div>
-        <!-- End Experience -->
+    </footer>
 
-        <!-- Work -->
-        <div id="work">
-            <div class="container content-lg">
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
                 <div class="row">
-                    <div class="col-sm-3 sm-margin-b-30">
-                        <div class="text-right sm-text-left">
-                            <h2 class="margin-b-0">Works</h2>
-                            <p>I build the real value.</p>
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
+                                </li>
+                                <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
+                                </li>
+                                <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
-                    <div class="col-sm-8 col-sm-offset-1">
-                        <!-- Masonry Grid -->
-                        <div class="masonry-grid row row-space-2">
-                            <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/800x400/01.jpg" alt="Portfolio Image">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Art Of Coding</h3>
-                                                <span>Clean &amp; Minimalistic Design</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                        <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                        <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                        <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/397x400/01.jpg" alt="Portfolio Image">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Art Of Coding</h3>
-                                                <span>Clean &amp; Minimalistic Design</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                        <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                        <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                        <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/397x300/01.jpg" alt="Portfolio Image">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Art Of Coding</h3>
-                                                <span>Clean &amp; Minimalistic Design</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                        <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                        <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                        <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/397x300/02.jpg" alt="Portfolio Image">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Art Of Coding</h3>
-                                                <span>Clean &amp; Minimalistic Design</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                        <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                        <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                        <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/397x300/03.jpg" alt="Portfolio Image">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Art Of Coding</h3>
-                                                <span>Clean &amp; Minimalistic Design</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                        <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                        <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                        <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                        </div>
-                        <!-- End Masonry Grid -->
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
-        </div>
-        <!-- End Work -->
-            
-        <!-- Contact -->
-        <div id="contact">
-            <div class="bg-color-sky-light">
-                <div class="container content-lg">
-                    <div class="row">
-                        <div class="col-sm-3 sm-margin-b-30">
-                            <div class="text-right sm-text-left">
-                                <h2 class="margin-b-0">Contacts</h2>
-                                <p>Hire me.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-8 col-sm-offset-1">
-                            <div class="row">
-                                <div class="col-md-3 col-xs-6 md-margin-b-30">
-                                    <h5>Location</h5>
-                                    <a href="#">Brookyln, New York</a>
-                                </div>
-                                <div class="col-md-3 col-xs-6 md-margin-b-30">
-                                    <h5>Phone</h5>
-                                    <a href="#">+77 234 548 00 00</a>
-                                </div>
-                                <div class="col-md-3 col-xs-6">
-                                    <h5>Email</h5>
-                                    <a href="mailto:#">alex.teseira@gmail.com</a>
-                                </div>
-                                <div class="col-md-3 col-xs-6">
-                                    <h5>Web</h5>
-                                    <a href="#">alex.teseira.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--// end row -->
                 </div>
             </div>
         </div>
-        <!-- End Contact -->
-        <!--========== END PAGE LAYOUT ==========-->
-
-        <!--========== FOOTER ==========-->
-        <footer class="footer">
-            <div class="content container">
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
                 <div class="row">
-                    <div class="col-xs-6">
-                        <img class="footer-logo" src="img/logo-dark.png" alt="Aircv Logo">
-                    </div>
-                    <div class="col-xs-6 text-right sm-text-left">
-                        <p class="margin-b-0"><a class="fweight-700" href="http://keenthemes.com/preview/aircv/">Aircv</a> Theme Powered by: <a class="fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
+                                </li>
+                                <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
+                                </li>
+                                <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
                     </div>
                 </div>
-                <!--// end row -->
             </div>
-        </footer>
-        <!--========== END FOOTER ==========-->
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
+                                </li>
+                                <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
+                                </li>
+                                <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
+                                </li>
+                                <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
+                                </li>
+                                <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
+                                </li>
+                                <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
+                                </li>
+                                <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
+                                </li>
+                                <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
+                                </li>
+                                <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/jquery.appear.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyALl-WUnKHFD26s6bPPpOo3MMEWBugZjy0&amp;sensor=false">
+	</script>
+	<script src="js/businessplus.js"></script>
+	
 
-        <!-- Back To Top -->
-        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+</body>
 
-        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-        <!-- CORE PLUGINS -->
-        <script src="vendor/jquery.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-
-        <!-- PAGE LEVEL PLUGINS -->
-        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
-        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
-        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
-        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
-        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
-        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-
-        <!-- PAGE LEVEL SCRIPTS -->
-        <script src="js/layout.min.js" type="text/javascript"></script>
-        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
-        <script src="js/components/masonry.min.js" type="text/javascript"></script>
-        <script src="js/components/wow.min.js" type="text/javascript"></script>
-
-    </body>
-    <!-- END BODY -->
 </html>
