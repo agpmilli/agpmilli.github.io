@@ -1002,7 +1002,8 @@ border-left: transparent 4px solid;
 margin: 0 0 0 -4px;
 }
 .skill{
-margin-left:50px;
+	color: #00D646;
+	margin-left:50px;
 }
 .skill-list li{
 list-style-type:circle;
