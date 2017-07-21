@@ -1052,13 +1052,13 @@ border-radius:50%;
 }
 
 .down-resume  {
-color: #E4545B;
-background-color: #ffffff;
-border-color: #fff;
+color: #fffff;
+background-color: transparent;
+border-color: #00D646;
 }
 .down-resume:hover, .down-resume:focus, .down-resume:active, .down-resume .active, .open .dropdown-toggle.down-resume {
 color: #ffffff;
-background-color: #E4545B;
+background-color: #00D646;
 border-color: #fff;
 }
 .resume-download{
@@ -1073,11 +1073,11 @@ border-color: #fff;
 .down-icon{
 size:10px;
 font-size:50px;
-color:#E4545B;
+color:#00D646;
 }
 .down-cv-text{
 font-size:30px;
-color:#E4545B;
+color:#00D646;
 }
 .testimonials{
 	background-image:url(../img/TemplateImg/testimonials.jpg);
