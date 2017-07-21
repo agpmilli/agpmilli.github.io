@@ -1649,7 +1649,7 @@ legend {
   border-bottom: 1px solid transparent;
 }
 label {
-  display: inline-block;
+  display: block;
   margin-bottom: 5px;
   font-weight: bold;
 }
