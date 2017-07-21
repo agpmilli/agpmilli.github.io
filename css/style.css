@@ -1017,6 +1017,13 @@ padding-left:50px;
 	background-image:url(../img/TemplateImg/skills.png);
 	background-image:repeat;
 }
+
+#education{
+    color: #fff;
+	background-image:url(../img/TemplateImg/education.jpeg);
+	background-image:repeat;
+}
+
 #services{
 background-color:#F2F2F2;
 color:#2C3E50;
@@ -1063,7 +1070,7 @@ border-color: #fff;
 }
 .resume-download{
 	padding: 60px 0;
-	background-image:url(../img/TemplateImg/download-cv1.jpg);
+	background-image:url(../img/TemplateImg/blue.jpg);
 	background-attachment: fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -1267,7 +1274,7 @@ margin-top: 10px;
 .navbar-nav a:hover,
 .navbar-nav a:focus,
 .navbar-nav li.active a{
-color: #E4545B !important;
+color: #00D646 !important;
 border-radius: 50% !important;
 }
 }
