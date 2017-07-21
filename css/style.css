@@ -118,19 +118,20 @@ header .intro-text .name {
     display: block;
 	text-align: left;
     text-transform: uppercase;
-    font-family: 'Bebas Neue';
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 65px;
     font-weight: 700;
+	padding-left: 50px;
 }
 
 header .intro-text .skills {
-	font-family: 'Bebas Neue';
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 24px;
     font-weight: 300;
 }
 
 header .intro-text .description {
-	font-family: 'Bebas Neue';
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 20px;
     font-weight: 300;
 }
@@ -165,7 +166,7 @@ header .intro-text .menu-icon:hover i {
 		display: block;
 		text-align: left;
 		text-transform: uppercase;
-		font-family: 'Bebas Neue';
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 		font-size: 65px;
 		font-weight: 700;
     }
@@ -175,7 +176,7 @@ header .intro-text .menu-icon:hover i {
     }
 	
 	header .intro-text .description {
-		font-family: 'Bebas Neue';
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 		font-size: 20px;
 		font-weight: 300;
 	}
@@ -878,7 +879,6 @@ background-color:#fff;
 }
 #top-logo-img{
 position:relative;
-top:-28px;
 }
 .verticalLine {
     position: relative;
