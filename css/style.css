@@ -116,12 +116,11 @@ header img {
 
 header .intro-text .name {
     display: block;
-	text-align: left;
+	/*text-align: left;*/
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 65px;
     font-weight: 700;
-	padding-left: 50px;
 }
 
 header .intro-text .skills {
@@ -164,7 +163,7 @@ header .intro-text .menu-icon:hover i {
 
     header .intro-text .name {
 		display: block;
-		text-align: left;
+		/*text-align: left;*/
 		text-transform: uppercase;
 		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 		font-size: 65px;
@@ -511,7 +510,7 @@ header.home{
 	height:100%;
 }
 .navbar-fixed-top{
-	display:none;
+	display:block;
 }
 .navbar-fixed-top.navbar-shrink{
 	display:block;
