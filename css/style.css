@@ -233,7 +233,7 @@ header .intro-text .menu-icon:hover i {
 }
 
 section {
-	min-height: 120%;
+	height: 100vh;
     padding: 100px 0;
 	background-color: #f2f2f2;
 }
@@ -251,6 +251,7 @@ section.success {
 
 @media(max-width:767px) {
     section {
+		height: 100vh;
         padding: 75px 0;
     }
 
