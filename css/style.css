@@ -646,7 +646,6 @@ border-top: 22px solid #3fbfE1;
 	overflow: hidden;
 	margin-right:-17px;
 	position: relative;
-	float:left;
 	border-right: thick solid #00D646;
 }
 
@@ -655,7 +654,6 @@ border-top: 22px solid #3fbfE1;
 	overflow: hidden;
 	margin-left:-18px;
 	min-height: 200px;
-	float: right;
 	border-left: thick solid #00D646;
 }
 
@@ -920,8 +918,8 @@ position:relative;
  
  .edu-right{
 	 position: absolute;
-	 top: 40px;
-	 left: 10px;
+	 top: 10px;
+	 left: -8px;
  }
  .datetime{
  position: relative;
