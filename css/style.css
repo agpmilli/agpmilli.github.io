@@ -113,13 +113,14 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: 'Playball', cursive;
-    font-size: 2em;
+    font-family: 'Lulo Clean';
+    font-size: 65px;
     font-weight: 700;
 }
 
 header .intro-text .skills {
-    font-size: 1.25em;
+	font-family: 'Basic';
+    font-size: 24px;
     font-weight: 300;
 }
 header .intro-text .menu-icon {
