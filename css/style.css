@@ -664,7 +664,6 @@ border-top: 22px solid #3fbfE1;
 	overflow: hidden;
 	margin-right:-17px;
 	position: relative;
-	border-right: thick solid #00D646;
 }
 
 .tm_content_exp-right{
@@ -672,7 +671,6 @@ border-top: 22px solid #3fbfE1;
 	overflow: hidden;
 	margin-left:-18px;
 	min-height: 200px;
-	border-left: thick solid #00D646;
 }
 
 .tm_content_text-left{
