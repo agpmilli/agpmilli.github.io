@@ -1,9 +1,3 @@
 # agpmilli.github.io
 
-Theme adapted from AIRCV THEME
-
-Author: 		KeenThemes
-Website: 		http://www.keenthemes.com/
-Contact: 		support@keenthemes.com
-Follow: 		http://twitter.com/keenthemes
-Like: 			http://facebook.com/keenthemes
+Theme adapted from Resume Inn (http://themifycloud.com/downloads/resume-inn-one-page-parallax-responsive-html5-template/)
