@@ -641,6 +641,10 @@ border-top: 22px solid #3fbfE1;
 	width:80px;
 	
 }
+
+.green{
+	color: #00D646;
+}
 .tm_content-left{
 	min-height: 200px;
 	text-align: right;
