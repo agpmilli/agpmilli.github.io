@@ -651,7 +651,7 @@ border-top: 22px solid #3fbfE1;
 	
 }
 .contact{
-	background-image: url(../img/TemplateImg/bg-latest.jpg);
+	background-image: url(../img/TemplateImg/blue.jpg);
 	/*background-color:#F2F2F2;*/
 	background-repeat:no; 
 	color:#fff;
@@ -1014,7 +1014,7 @@ padding-left:50px;
 }
 #skills{
     color: #fff;
-	background-image:url(../img/TemplateImg/bg-latest-blue.jpg);
+	background-image:url(../img/TemplateImg/skills.png);
 	background-image:repeat;
 }
 #services{
@@ -1032,7 +1032,7 @@ background-color: #ffffff;
 border-color: #fff;
 }
 .navbar-default {
-background-color: #524E4A;
+background-color: #3E4F5F;
 }
 #foot-link{
 color:#fff;
