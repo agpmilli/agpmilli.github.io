@@ -194,7 +194,7 @@ header .intro-text .menu-icon:hover i {
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
+        font-size: 1.5em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -1003,6 +1003,7 @@ margin: 0 0 0 -4px;
 .skill{
 	color: #00D646;
 	margin-left:50px;
+	letter-spacing: 0.07em;
 }
 .skill-list li{
 list-style-type:circle;
