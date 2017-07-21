@@ -645,9 +645,11 @@ border-top: 22px solid #3fbfE1;
 	overflow: hidden;
 	margin-left:40px;
 }
-.tm_member{
+.tm_member-left{
+	text-align: right;
+}
+.tm_member-right{
 	text-align: left;
-	margin: 50px 0 0 0;
 }
 .services{
 	background-color:#91C444;
@@ -885,7 +887,7 @@ position:relative;
 	height: 230px;
 	float:left;
 	/* background-color: #000; */
-	border-left: thick solid #000000;
+	border-left: thick solid #00D646;
 	margin-left:10px;
 }
 .edu{
