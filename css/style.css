@@ -644,7 +644,7 @@ border-top: 22px solid #3fbfE1;
 	min-height: 200px;
 	text-align: right;
 	overflow: hidden;
-	margin-right:40px;
+	margin-right:-17px;
 	position: relative;
 	float:left;
 	border-right: thick solid #00D646;
@@ -653,10 +653,18 @@ border-top: 22px solid #3fbfE1;
 .tm_content-right{
 	text-align: left;
 	overflow: hidden;
-	margin-left:40px;
+	margin-left:-18px;
 	min-height: 200px;
 	float: right;
 	border-left: thick solid #00D646;
+}
+
+.tm_content_text-left{
+	padding-right: 10px;
+}
+
+.tm_content_text-right{
+	padding-left: 10px;
 }
 
 .tm_member-left{
@@ -904,7 +912,13 @@ position:relative;
 	border-left: thick solid #00D646;
 	margin-left:10px;
 }
-.edu{
+.edu-left{
+	 position: absolute;
+	 top: 10px;
+	 right: -8px;
+ }
+ 
+ .edu-right{
 	 position: absolute;
 	 top: 40px;
 	 left: 10px;
