@@ -584,7 +584,8 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 section.home{
-	background-image:url(../img/TemplateImg/homebackground.jpg);
+	background:linear-gradient(rgba(1,1,1, .6), rgba(1,1,1,.6)), url(../img/TemplateImg/homebackground.jpg);
+	background-size:cover;
 	top:0px;
 	padding-top:0;
 	margin:auto; 
@@ -592,6 +593,10 @@ section.home{
 	width:100%;
 	min-height: 100vh;
 	height: 100vh !important;
+}
+
+section .button{
+	text-align: center;
 }
 .navbar-fixed-top{
 	display:block;
@@ -1160,7 +1165,7 @@ padding-left:50px;
 #skills{
     color: #fff;
 	background: linear-gradient(rgba(1,1,1, .6), rgba(1,1,1,.6)), url(../img/TemplateImg/skills.jpg);
-	background-image:cover;
+	background-size:cover;
 }
 
 #education{
