@@ -583,7 +583,7 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-section.home{
+header.home{
 	background:linear-gradient(rgba(1,1,1, .6), rgba(1,1,1,.6)), url(../img/TemplateImg/homebackground.jpg);
 	background-size:cover;
 	top:0px;
@@ -1165,6 +1165,11 @@ padding-left:50px;
 #skills{
     color: #fff;
 	background: linear-gradient(rgba(1,1,1, .6), rgba(1,1,1,.6)), url(../img/TemplateImg/skills.jpg);
+	background-size:cover;
+}
+#home{
+    color: #fff;
+	background: linear-gradient(rgba(1,1,1, .6), rgba(1,1,1,.6)), url(../img/TemplateImg/homebackground.jpg);
 	background-size:cover;
 }
 
