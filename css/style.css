@@ -1171,6 +1171,7 @@ padding-left:50px;
     color: #fff;
 	background: linear-gradient(rgba(1,1,1, .6), rgba(1,1,1,.6)), url(../img/TemplateImg/homebackground.jpg);
 	background-size:cover;
+	height: auto !important;
 }
 
 #education{
