@@ -506,7 +506,7 @@ header.home{
 	top:0px;
 	padding-top:0;
 	margin:auto; 
-	position:relative;
+	/*position:relative;*/
 	width:100%;
 	min-height: 100vh;
 }
