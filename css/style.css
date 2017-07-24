@@ -509,6 +509,7 @@ header.home{
 	/*position:relative;*/
 	width:100%;
 	min-height: 100vh;
+	height: auto !important;
 }
 .navbar-fixed-top{
 	display:block;
@@ -776,6 +777,7 @@ border-top: 22px solid #3fbfE1;
 .home_wrap{
 	background-color:#333B50;
 	opacity: 0.65;
+	height: auto !important;
 }
 .portfolio-container .mix{
     display: none;
