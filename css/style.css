@@ -155,6 +155,58 @@ header .intro-text .menu-icon:hover i {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
 	}
+	
+section .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+section img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+section .intro-text .name {
+    display: block;
+	/*text-align: left;*/
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+section .intro-text .skills {
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+section .intro-text .description {
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+section .intro-text .menu-icon {
+    margin:auto;
+	width:100px;
+	color:#fff;
+}
+section .intro-text .menu-icon i{
+	
+	 border-radius: 50%;
+	 padding:10%;
+	 margin-top: 30px;
+	 margin-left:15px;
+	 color: #fff;
+}
+section .intro-text .menu-icon:hover i {
+	background-color:#fff; 
+	color:#E4545B; 
+	-webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+	}
 
 @media(min-width:768px) {
     header .container {
@@ -181,6 +233,33 @@ header .intro-text .menu-icon:hover i {
 	}
 	
 	header .intro-text .menu-icon {
+        font-size: 2.5em;
+    }
+	
+	section .container {
+        padding: 180px 0 100px;
+    }
+
+    section .intro-text .name {
+		display: block;
+		/*text-align: left;*/
+		text-transform: uppercase;
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 65px;
+		font-weight: 700;
+    }
+
+    section .intro-text .skills {
+        font-size: 24px;
+    }
+	
+	section .intro-text .description {
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 20px;
+		font-weight: 300;
+	}
+	
+	section .intro-text .menu-icon {
         font-size: 2.5em;
     }
 }
