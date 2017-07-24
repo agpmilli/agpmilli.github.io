@@ -580,7 +580,7 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-header.home{
+section.home{
 	background-image:url(../img/TemplateImg/homebackground.jpg);
 	top:0px;
 	padding-top:0;
