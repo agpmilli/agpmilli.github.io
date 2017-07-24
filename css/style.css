@@ -166,6 +166,9 @@ section img {
     margin: 0 auto 20px;
 }
 
+section .intro-text{
+	color: #ffffff;
+}
 section .intro-text .name {
     display: block;
 	/*text-align: left;*/
